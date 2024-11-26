@@ -30,7 +30,7 @@ const createLoadingDiv = () => {
     // Text
     const textDiv = document.createElement('div');
     textDiv.className = 'loading-text';
-    textDiv.innerText = 'Loading Steam interface';
+    textDiv.innerText = 'Memuat Daftar Game';
 
     // Radial Loader
     const loadingIndicator = document.createElement('div');

@@ -30,7 +30,7 @@ const createLoadingDiv = () => {
     // Text
     const textDiv = document.createElement('div');
     textDiv.className = 'loading-text';
-    textDiv.innerText = 'Loading Steam interface';
+    textDiv.innerText = 'Memuat Daftar Game';
 
     // Radial Loader
     const loadingIndicator = document.createElement('div');
@@ -79,11 +79,15 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
     buttonsToMove.forEach((button) => {
         buttonContainer.appendChild(button);
     });
+
+    console.log("Start")
   
     gameListSidebar.appendChild(downloadBar);
     gameListSidebar.appendChild(userPannel);
     buttonContainer.appendChild(friendButton);
     parent.appendChild(buttonContainer);
+
+    userPannel.style.display = 'flex';
 
 
     // Download bar

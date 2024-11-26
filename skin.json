@@ -11,17 +11,6 @@
                 }
             }
         },
-        "System accent colors": {
-            "description": "Replaces the SpaceTheme accent colors with your system accent colors",
-            "default": "no",
-            "tab": "General",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": { "affects": [".*"], "src": "options/general/systemAccent.css" }
-                }
-            }
-        },
         
         "Navigation buttons": {
             "description": "Hide Navigation buttons",
@@ -189,7 +178,7 @@
     },
     "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
-    "name": "SpaceTheme for Steam",
+    "name": "Orata Game Center",
     "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
     "version": "1.1.2-alpha"
 }

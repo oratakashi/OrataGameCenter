@@ -61,30 +61,31 @@
     height: auto;
     margin: 16px 0 !important;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: rgb(var(--color-1));
-    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 25%);
+    /* box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 25%); */
     transition: all 0.2s ease-in-out;
 }
 ._3YO5BpDmZERh_G8kaWbaSJ:hover {
     cursor: pointer;
     background-color: rgb(var(--color-3));
-    transform: scale(1.02);
+    box-shadow: 0px 0px 5px 5px rgb(var(--accent-1));
+    transform: scale(1.002);
 }
 
 /* Card hover info */
 .B-vCdL38RiJlhfSRgZv78 ._3Rb_j3lgHaVVIud4Gla7_m {
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 /* Card image */
 .B-vCdL38RiJlhfSRgZv78 .SPz0ipLqfF1oAO7tdrkdY {
     margin-bottom: 3px;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 .B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._1-W_ZQ4XyImc86SJFamGha,
 .gpfocus>.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5 ._1-W_ZQ4XyImc86SJFamGha {
-    transform: scale(1);
+    transform: scale(1.1);
 }
 
 /* Event date */

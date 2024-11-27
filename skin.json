@@ -10,12 +10,11 @@
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageSidebarLeft.css" }
                 }
             }
-        },
-        
+        },        
         "Navigation buttons": {
             "description": "Hide Navigation buttons",
             "default": "yes",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -26,7 +25,7 @@
         "Wallet balance": {
             "description": "Hide wallet balance",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {
                     "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/walletBalance.css" }
@@ -37,7 +36,7 @@
         "Steam VR button": {
             "description": "Hide Steam VR button from userpannel",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -48,7 +47,7 @@
         "Big Picture Mode button": {
             "description": "Hide Big Picture Mode button from userpannel",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -59,7 +58,7 @@
         "News button": {
             "description": "Hide News button form userpannel",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -70,7 +69,7 @@
         "Notification button": {
             "description": "Hide Notification button form userpannel",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -81,7 +80,7 @@
         "Friend list button": {
             "description": "Hide Friend list button form userpannel (only with Userpannel experimental)",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -92,7 +91,7 @@
         "What's New": {
             "description": "Customize the What's New section",
             "default": "Compact",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "Show": {},
                 "Compact": {
@@ -106,7 +105,7 @@
         "Add shelf button": {
             "description": "Hide Add shelf button in Library",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -117,7 +116,7 @@
         "Game cover shiny effect": {
             "description": "Hide shiny effect on game covers",
             "default": "no",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "no": {},
                 "yes": {
@@ -128,7 +127,7 @@
         "VAC-Ban visibility": {
             "description": "Hide the VAC ban from your profile or on all profiles (currently not working)",
             "default": "Show",
-            "tab": "Steam bloat",
+            "tab": "Interface",
             "values": {
                 "Show": {},
                 "For me": {
@@ -139,16 +138,17 @@
                 }
             }
         },
-
         "Userpannel": {
             "description": "Moves the user buttons and the download bar to the game sidebar",
             "default": "no",
             "tab": "Experimental",
             "values": {
-                "no": {},
+                "no": {
+
+                },
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.css" },
-                    "TargetJs": { "affects": ["^Steam$"], "src": "options/experimental/userpannel.js" }
+                    "TargetCss": { "affects": ["^Steam$"], "src": "options/userpanel/userpannel.css" },
+                    "TargetJs": { "affects": ["^Steam$"], "src": "options/userpanel/userpannel.js" }
                 }
             }
         }
@@ -168,17 +168,12 @@
     "RootColors": "./src/css/root.css",
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
-    "author": "SpaceEnergy",
+    "author": "Oratakashi",
     "description": "A modular design with dark colors intended to enhance navigability and improve user experience.",
     "discord_support": { "inviteCodeExcludingLink": "7Zv8Xz3Vzn" },
-    "funding": { "kofi": "spacetheme" },
-    "github": {
-        "owner": "SpaceTheme",
-        "repo_name": "Steam"
-    },
     "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "name": "Orata Game Center",
     "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
-    "version": "1.1.2-alpha"
+    "version": "0.0.1"
 }

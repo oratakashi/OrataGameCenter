@@ -1,24 +1,26 @@
-const waitForElement = (selector, parent = document) => new Promise((resolve) => {
-    const el = parent.querySelector(selector);
-    if (el) {
-        resolve(el);
-    }
+// const waitForElement = (selector, parent = document) => new Promise((resolve) => {
+//     const el = parent.querySelector(selector);
+//     if (el) {
+//         resolve(el);
+//     }
 
-    const observer = new MutationObserver(() => {
-        const el = parent.querySelector(selector);
-        if (!el) {
-            return;
-        }
+//     const observer = new MutationObserver(() => {
+//         const el = parent.querySelector(selector);
+//         if (!el) {
+//             return;
+//         }
 
-        resolve(el);
-        observer.disconnect();
-    });
+//         resolve(el);
+//         observer.disconnect();
+//     });
 
-    observer.observe(document.body, {
-        subtree: true,
-        childList: true,
-    });
-});
+//     observer.observe(document.body, {
+//         subtree: true,
+//         childList: true,
+//     });
+// });
+
+import { waitForElement } from '../../src/js/waitForElement.js';
 
 
 
@@ -79,8 +81,6 @@ waitForElement('.Rp8QOGJ2DypeDniMnRBhr').then(() => {
     buttonsToMove.forEach((button) => {
         buttonContainer.appendChild(button);
     });
-
-    console.log("Start")
   
     gameListSidebar.appendChild(downloadBar);
     gameListSidebar.appendChild(userPannel);

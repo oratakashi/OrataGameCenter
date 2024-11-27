@@ -7,18 +7,50 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/general/gamepageSidebarLeft.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/general/gamepageSidebarLeft.css"
+                    }
                 }
             }
-        },        
+        },
         "Hide Navigation buttons": {
             "description": "Hide Navigation buttons",
-            "default": "yes",
+            "default": "no",
             "tab": "Navigation",
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/navigationButtons.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/hideNavigationButtons.css"
+                    }
+                }
+            }
+        },
+        "Move Navigation button": {
+            "description": "Move Navigation buttons location",
+            "default": "no",
+            "tab": "Navigation",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/navigationButtons.css"
+                    },
+                    "TargetJs": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/navigationButtons.css"
+                    }
                 }
             }
         },
@@ -28,7 +60,12 @@
             "tab": "Interface",
             "values": {
                 "no": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/walletBalance.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/walletBalance.css"
+                    }
                 },
                 "yes": {}
             }
@@ -40,7 +77,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/steamVr.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/userpannelButtons/steamVr.css"
+                    }
                 }
             }
         },
@@ -51,7 +93,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/bpm.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/userpannelButtons/bpm.css"
+                    }
                 }
             }
         },
@@ -62,7 +109,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/news.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/userpannelButtons/news.css"
+                    }
                 }
             }
         },
@@ -73,7 +125,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/notification.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/userpannelButtons/notification.css"
+                    }
                 }
             }
         },
@@ -84,7 +141,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/userpannelButtons/friendList.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/userpannelButtons/friendList.css"
+                    }
                 }
             }
         },
@@ -95,10 +157,20 @@
             "values": {
                 "Show": {},
                 "Compact": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/whatsNew/compact.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/whatsNew/compact.css"
+                    }
                 },
                 "Hide": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/whatsNew/hide.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/whatsNew/hide.css"
+                    }
                 }
             }
         },
@@ -109,7 +181,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/addShelf.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/addShelf.css"
+                    }
                 }
             }
         },
@@ -120,7 +197,12 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/steamBloat/shinyEffect.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/steamBloat/shinyEffect.css"
+                    }
                 }
             }
         },
@@ -131,10 +213,20 @@
             "values": {
                 "Show": {},
                 "For me": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/steamBloat/vacBan/me.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "https://steamcommunity.com"
+                        ],
+                        "src": "options/steamBloat/vacBan/me.css"
+                    }
                 },
                 "For all": {
-                    "TargetCss": { "affects": ["https://steamcommunity.com"], "src": "options/steamBloat/vacBan/all.css" }
+                    "TargetCss": {
+                        "affects": [
+                            "https://steamcommunity.com"
+                        ],
+                        "src": "options/steamBloat/vacBan/all.css"
+                    }
                 }
             }
         },
@@ -143,12 +235,20 @@
             "default": "no",
             "tab": "Experimental",
             "values": {
-                "no": {
-
-                },
+                "no": {},
                 "yes": {
-                    "TargetCss": { "affects": ["^Steam$"], "src": "options/userpanel/userpannel.css" },
-                    "TargetJs": { "affects": ["^Steam$"], "src": "options/userpanel/userpannel.js" }
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/userpanel/userpannel.css"
+                    },
+                    "TargetJs": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/userpanel/userpannel.js"
+                    }
                 }
             }
         }
@@ -163,6 +263,11 @@
             "MatchRegexString": "Menu$",
             "TargetCss": "menu.custom.css",
             "TargetJs": "menu.custom.js"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
         }
     ],
     "RootColors": "./src/css/root.css",
@@ -170,10 +275,17 @@
     "UseDefaultPatches": true,
     "author": "Oratakashi",
     "description": "A modular design with dark colors intended to enhance navigability and improve user experience.",
-    "discord_support": { "inviteCodeExcludingLink": "7Zv8Xz3Vzn" },
+    "discord_support": {
+        "inviteCodeExcludingLink": "7Zv8Xz3Vzn"
+    },
     "header_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/banner.png",
     "splash_image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/_assets/img/preview.png",
     "name": "Orata Game Center",
-    "tags": [ "Modular", "Dark", "Customizable", "alpha" ],
+    "tags": [
+        "Modular",
+        "Dark",
+        "Customizable",
+        "alpha"
+    ],
     "version": "0.0.1"
 }

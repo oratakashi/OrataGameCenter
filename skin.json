@@ -36,7 +36,18 @@
                     }
                 },
                 "Left": {
-                    
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/navigation/leftNavigation.css"
+                    },
+                    "TargetJs": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "options/navigation/leftNavigation.js"
+                    }
                 }
             }
         },

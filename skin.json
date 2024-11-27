@@ -16,41 +16,27 @@
                 }
             }
         },
-        "Hide Navigation buttons": {
-            "description": "Hide Navigation buttons",
-            "default": "no",
-            "tab": "Navigation",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/steamBloat/hideNavigationButtons.css"
-                    }
-                }
-            }
-        },
-        "Move Navigation button": {
+        "Navigation Mode": {
             "description": "Move Navigation buttons location",
-            "default": "no",
+            "default": "Top",
             "tab": "Navigation",
             "values": {
-                "no": {},
-                "yes": {
+                "Top": {
                     "TargetCss": {
                         "affects": [
                             "^Steam$"
                         ],
-                        "src": "options/steamBloat/navigationButtons.css"
+                        "src": "options/navigation/topNavigation.css"
                     },
                     "TargetJs": {
                         "affects": [
                             "^Steam$"
                         ],
-                        "src": "options/steamBloat/navigationButtons.css"
+                        "src": "options/navigation/topNavigation.js"
                     }
+                },
+                "Left": {
+                    
                 }
             }
         },

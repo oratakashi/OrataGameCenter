@@ -11,10 +11,10 @@
                 }
             }
         },        
-        "Navigation buttons": {
+        "Hide Navigation buttons": {
             "description": "Hide Navigation buttons",
             "default": "yes",
-            "tab": "Interface",
+            "tab": "Navigation",
             "values": {
                 "no": {},
                 "yes": {

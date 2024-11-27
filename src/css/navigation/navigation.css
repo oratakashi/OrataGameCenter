@@ -1,0 +1,54 @@
+.navigation-button {
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+/* Top Navbar */
+._2D64jIEK7wpUR_NlObDW76 {
+    padding-top: 10px;
+    margin-left: 16px;
+}
+
+/* Navigation Icon Forward */
+.navigation-button svg:nth-child(2) {
+    display: none;
+}
+
+._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT {
+    padding: 6px 7px;
+    /* color: transparent; */
+    display: none;
+}
+._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT:nth-of-type(1) {
+    z-index: 99999;
+    padding: 0 6px 0 0;
+    /* color: #8b929a; */
+    display: flex;
+}
+
+/* Default state: Semua elemen kecuali index pertama dan terakhir hidden */
+/* ._1Ky59qmywxOUtNcI1cgmkX > *:nth-child(n+2):nth-last-child(n) {
+  display: none;
+} */
+
+/* Saat hover pada index pertama */
+/* ._1Ky59qmywxOUtNcI1cgmkX > :first-child:hover ~ *:nth-child(n+2):nth-last-child(n) { */
+  /* display: contents; */
+/* } */
+
+/* Saat hover pada index pertama, sembunyikan index terakhir */
+/* ._1Ky59qmywxOUtNcI1cgmkX > :first-child:hover ~ :last-child {
+  display: none;
+} */
+
+/* Saat hover pada elemen yang di-hidden, tampilkan elemen yang di-hidden */
+/* ._1Ky59qmywxOUtNcI1cgmkX > *:nth-child(n+2):nth-last-child(n+2):hover {
+  display: block;
+} */
+
+/* Ketika hover selesai, semua elemen kembali ke state awal */
+/* ._1Ky59qmywxOUtNcI1cgmkX:hover > :last-child {
+  display: block;
+} */

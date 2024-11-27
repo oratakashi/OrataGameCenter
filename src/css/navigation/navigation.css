@@ -28,6 +28,23 @@
     display: flex;
 }
 
+.navbar-hidden {
+    opacity: 0;
+    transform: translateY(-10px); /* Elemen naik sedikit ke atas */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Durasi dan timing animasi */
+    pointer-events: none; /* Nonaktifkan interaksi saat elemen tersembunyi */
+    display: none;
+}
+
+.navbar-visible {
+    opacity: 1;
+    transform: translateY(0); /* Kembali ke posisi normal */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Sama dengan hidden */
+    pointer-events: auto; /* Interaksi diaktifkan */
+    display: flex;
+}
+
+
 /* Default state: Semua elemen kecuali index pertama dan terakhir hidden */
 /* ._1Ky59qmywxOUtNcI1cgmkX > *:nth-child(n+2):nth-last-child(n) {
   display: none;

@@ -29,4 +29,22 @@ export async function moveMainTopNavigation() {
     /**
      * Add Hover State on menu for dynamic
      */
+    var menuContainer = await waitForElement('._1Ky59qmywxOUtNcI1cgmkX ');
+    menuContainer.addEventListener('mouseover', () => {
+
+        Array.from(menuContainer.children).slice(1).forEach(child => {
+            child.style.display = "flex";
+        });
+
+        navBar.style.display = "none";
+    });
+
+    menuContainer.addEventListener('mouseout', () => {
+
+        Array.from(menuContainer.children).slice(1).forEach(child => {
+            child.style.display = "none";
+        });
+
+        navBar.style.display = "flex"
+    });
 }

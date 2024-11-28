@@ -65,3 +65,13 @@
     background: rgb(var(--accent-1)); /* Warna garis */
     border-radius: 8px;
 }
+
+/* Warna ikon default (tidak aktif) */
+._19axKcqYRuaJ8vdYKYmtTQ svg path {
+    fill: #ffffff; /* Putih */
+}
+
+/* Warna ikon saat aktif */
+._19axKcqYRuaJ8vdYKYmtTQ.active svg path {
+    fill: rgb(var(--accent-1)); /* Biru */
+}

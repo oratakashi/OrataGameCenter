@@ -24,9 +24,11 @@ import { waitForElement } from '../../src/js/waitForElement.js';
         "Community": `<svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m3.5 14 10 .001a1.5 1.5 0 0 1 1.493 1.356L15 15.5V17.5C14.999 21 11.284 22 8.5 22c-2.722 0-6.335-.956-6.495-4.27L2 17.5v-2a1.5 1.5 0 0 1 1.356-1.493L3.5 14Zm11.988 0H20.5a1.5 1.5 0 0 1 1.493 1.355L22 15.5V17c-.001 3.062-2.858 4-5 4a7.16 7.16 0 0 1-2.14-.322c.653-.75 1.076-1.703 1.133-2.898L16 17.5v-2c0-.494-.15-.951-.399-1.338L15.488 14H20.5h-5.012ZM8.5 3a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm9 2a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Z" fill="#ffffff"/></svg>`,
         "Profile": `<svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.754 14a2.249 2.249 0 0 1 2.25 2.249v.918a2.75 2.75 0 0 1-.513 1.599C17.945 20.929 15.42 22 12 22c-3.422 0-5.945-1.072-7.487-3.237a2.75 2.75 0 0 1-.51-1.595v-.92a2.249 2.249 0 0 1 2.249-2.25h11.501ZM12 2.004a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z" fill="#ffffff"/></svg>`
     };
+    
+    var menuItem = document.querySelectorAll("._19axKcqYRuaJ8vdYKYmtTQ");
 
     // Cari elemen teks dan ganti dengan SVG
-    document.querySelectorAll("._19axKcqYRuaJ8vdYKYmtTQ").forEach((element) => {
+    menuItem.forEach((element) => {
         const textContent = element.textContent.trim(); // Ambil teks
         if (iconMap[textContent]) {
             element.innerHTML = iconMap[textContent]; // Ganti teks dengan ikon
@@ -34,6 +36,19 @@ import { waitForElement } from '../../src/js/waitForElement.js';
             element.innerHTML = iconMap['Profile']; // Ganti teks dengan ikon
         }
     });
+
+    menuItem[0].classList.add("active");
+
+    menuItem.forEach((element) => {
+        element.addEventListener("click", () => {
+            // Hapus class 'active' dari semua elemen
+            document.querySelectorAll("._19axKcqYRuaJ8vdYKYmtTQ").forEach((el) => el.classList.remove("active"));
+    
+            // Tambahkan class 'active' pada elemen yang diklik
+            element.classList.add("active");
+        });
+    });
+    
 
     // const elements = document.querySelectorAll('._7AlhCx3XGzBeIrQaCneUD');
     // elements.forEach(element => {

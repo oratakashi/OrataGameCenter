@@ -32,15 +32,16 @@
 */
 ._17uEBe5Ri8TMsnfELvs8-N {
     height: unset !important;
-    margin: 16px 16px 0;
+    /* margin: 16px 16px 0; */
     padding: 16px 16px 0;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: unset;
     background-image: none;
 }
 
 ._11cYvnWDwOeGdlUpfGNlYt {
     margin: 0;
+    margin-top: 16px;
 }
 
 /* List */
@@ -51,7 +52,7 @@
 /* Day text */
 ._2rlKqvybYupc-uk64cdQ8D {
     position: absolute;
-    top: -18px;
+    top: -24px;
     left: 0;
 }
 
@@ -60,10 +61,10 @@
     overflow: unset !important;
     position: relative;
     height: auto;
-    margin: 16px 0 !important;
+    margin: 20px 0 !important;
     padding: 12px;
     border-radius: 16px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--color-2));
     /* box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 25%); */
     transition: all 0.2s ease-in-out;
 }
@@ -112,7 +113,7 @@
     margin: 0;
     padding: 4px 12px 4px 4px;
     border-radius: 4px;
-    background-color: rgb(var(--color-2));
+    background-color: rgb(var(--color-1));
 }
 ._3_xMyCJAh_Dv99KgZ54P3j:hover {
     background-color: rgb(var(--color-6));
@@ -135,7 +136,7 @@
     margin: 0 0 16px;
     padding: 8px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    /* background-color: rgb(var(--color-2)); */
 }
 ._3SkuN_ykQuWGF94fclHdhJ ._1PhK8scyztOxjJwWUpkiLJ {
     display: none;
@@ -160,7 +161,7 @@
 ._2Z9gJ6Pd7eZn-kfODcXJuR {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 42px;
 }
 
 
@@ -168,9 +169,9 @@
 ! Game shelf
 */
 ._2tC_c87MH67xQM7Y0pVyXm {
-    padding: 16px;
+    /* padding: 16px; */
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: unset;
 }
 
 .V7RuDNUxhxoBRaiGWbk3B {

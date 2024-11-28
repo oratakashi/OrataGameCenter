@@ -40,3 +40,14 @@
     background: linear-gradient(to top, rgb(var(--background)), transparent); /* Gradasi hitam ke transparan */
     pointer-events: none; /* Supaya tidak mengganggu interaksi */
 }
+
+/* !Whats New Label */
+._2hfibYuzyMOQ0sj2egsHh0 {
+    font-size: 1.3rem !important;
+    font-weight: 500;
+}
+
+/* .DialogDropDown_CurrentDisplay {
+    font-size: 1.3rem !important;
+    font-weight: 500;
+} */

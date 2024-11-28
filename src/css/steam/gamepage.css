@@ -4,7 +4,7 @@
 
 ._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
     overflow-y: overlay;
-    padding: 16px;
+    /* padding: 16px; */
     background-image: none;
     background-color: rgb(var(--background));
 }
@@ -121,7 +121,7 @@
     border-image: none !important;
     border-radius: 8px;
     background: none !important;
-    background-color: rgb(var(--color-2)) !important;
+    /* background-color: rgb(var(--color-2)) !important; */
 }
 
 ._3-V8vjmrwuJM6Ws3tsjFJj ._25f0fX6qbgdB7O_lMrbhCN {
@@ -130,6 +130,7 @@
 
 ._3-V8vjmrwuJM6Ws3tsjFJj .DgVQapkBmhAW6oPY5rPZo {
     display: flex;
+    justify-content: center;
     height: unset !important;
 }
 

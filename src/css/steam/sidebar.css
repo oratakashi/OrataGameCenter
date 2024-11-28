@@ -238,13 +238,13 @@
 */
 ._276E6ijBpjMA2_iTxNhhjc {
     margin: auto 6px;
-    width: 4px;
-    height: 240px;
+    width: 2px;
+    height: 40px;
     border-radius: 8px;
-    background-color: rgb(var(--accent-1));
+    background-color: rgba(var(--accent-1), .4);
     transition: all 0.2s ease-in-out;
 }
 ._276E6ijBpjMA2_iTxNhhjc:hover, ._276E6ijBpjMA2_iTxNhhjc:focus, ._276E6ijBpjMA2_iTxNhhjc:active {
-    height: 280px;
+    height: 120px;
     background-color: rgb(var(--accent-2)) !important;
 }

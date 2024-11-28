@@ -16,41 +16,7 @@
                 }
             }
         },
-        "Navigation Mode": {
-            "description": "Move Navigation buttons location",
-            "default": "Top",
-            "tab": "Navigation",
-            "values": {
-                "Top": {
-                    "TargetCss": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/navigation/topNavigation.css"
-                    },
-                    "TargetJs": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/navigation/topNavigation.js"
-                    }
-                },
-                "Left": {
-                    "TargetCss": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/navigation/leftNavigation.css"
-                    },
-                    "TargetJs": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/navigation/leftNavigation.js"
-                    }
-                }
-            }
-        },
+        
         "Wallet balance": {
             "description": "Hide wallet balance",
             "default": "no",

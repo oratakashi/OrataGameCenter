@@ -16,6 +16,90 @@
     display: none;
 }
 
+.container-content {
+    flex-direction: row;
+    flex-grow: 1;
+    display: flex;
+}
 
+.container-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menempatkan item di tengah */
+    gap: 8px; /* Menambahkan jarak antar elemen */
+    padding: 10px 0; /* Memberikan ruang di atas dan bawah */
+    height: 13rem;
+}
+
+._2D64jIEK7wpUR_NlObDW76 {
+    flex-direction: column;
+    gap: 16px; /* Jarak antar elemen di dalam navigasi */
+    align-items: center; /* Menempatkan item di tengah */
+    padding: 8px 0; /* Tambahkan padding di sekitar */
+    width: 60px; /* Sesuaikan lebar menu navigasi */
+}
+
+._19axKcqYRuaJ8vdYKYmtTQ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    transition: all 0.2s ease; /* Tambahkan animasi transisi */
+    font-size: 16px; /* Ukuran teks */
+}
+
+._19axKcqYRuaJ8vdYKYmtTQ:hover {
+    background-color: #5a5a5a; /* Warna saat hover */
+    transform: scale(1.1); /* Sedikit memperbesar */
+    border-radius: 8px;
+}
+
+._7AlhCx3XGzBeIrQaCneUD {
+    height: fit-content !important;
+}
+
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ {
+    position: relative; /* Memastikan posisi relatif agar ::before bisa diposisikan */
+    background-color: #3a3a3a; /* Warna dasar tombol */
+    border-radius: 8px; /* Membuat tombol berbentuk lingkaran */
+    color: #fff; /* Warna teks atau ikon */
+}
+
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
+    height: 0 !important;
+    width: 0 !important;
+    background: transparent !important;
+}
+
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ::before {
+    content: ""; /* Harus ada content untuk pseudo-elemen */
+    position: absolute;
+    left: 0; /* Sesuaikan dengan posisi yang diinginkan */
+    top: 50%;
+    transform: translateY(-50%); /* Membuat garis berada di tengah secara vertikal */
+    width: 3px; /* Panjang garis */
+    height: 18px; /* Tinggi garis */
+    background: rgb(var(--accent-1)); /* Warna garis */
+    border-radius: 8px;
+}
+
+._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ svg {
+    fill: rgb(var(--accent-1));
+}
+
+._7AlhCx3XGzBeIrQaCneUD ._19axKcqYRuaJ8vdYKYmtTQ svg {
+    fill: #ffffff 
+}
+
+/* Warna ikon default (tidak aktif) */
+._19axKcqYRuaJ8vdYKYmtTQ svg path {
+    fill: #ffffff; /* Putih */
+}
+
+/* Warna ikon saat aktif */
+._19axKcqYRuaJ8vdYKYmtTQ.active svg path {
+    fill: rgb(var(--accent-1)); /* Biru */
+}
 
 

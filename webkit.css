@@ -28,7 +28,7 @@ body.v6 .game_page_background::before {
     width: 100vw;
     height: 100vh;
     border-radius: 8px;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--background));
 }
 
 body.v6::-webkit-scrollbar {

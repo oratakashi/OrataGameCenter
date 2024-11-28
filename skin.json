@@ -113,30 +113,7 @@
                 }
             }
         },
-        "What's New": {
-            "description": "Customize the What's New section",
-            "default": "Compact",
-            "tab": "Interface",
-            "values": {
-                "Show": {},
-                "Compact": {
-                    "TargetCss": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/steamBloat/whatsNew/compact.css"
-                    }
-                },
-                "Hide": {
-                    "TargetCss": {
-                        "affects": [
-                            "^Steam$"
-                        ],
-                        "src": "options/steamBloat/whatsNew/hide.css"
-                    }
-                }
-            }
-        },
+        
         "Add shelf button": {
             "description": "Hide Add shelf button in Library",
             "default": "no",

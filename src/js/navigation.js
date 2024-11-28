@@ -45,6 +45,8 @@ export async function moveNavigationToSidebar() {
     
     var menuItem = document.querySelectorAll("._19axKcqYRuaJ8vdYKYmtTQ");
 
+    navBar.prepend(navBar.children[1]);
+
     // Cari elemen teks dan ganti dengan SVG
     menuItem.forEach((element) => {
         const textContent = element.textContent.trim(); // Ambil teks

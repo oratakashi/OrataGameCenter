@@ -1,0 +1,52 @@
+.search-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    justify-content: space-between; /* Membuat elemen tersebar ke sisi kiri dan kanan */
+    align-items: center; /* Menyelaraskan elemen secara vertikal */
+}
+
+.library-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+._30vB9DdsPK7VrZAbb5Q1Av {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+! Searchbar
+*/
+._20QAC4WMXm8qFE8waUT5oo {
+    /* margin-top: 16px !important; */
+    width: 300px;
+}
+._20QAC4WMXm8qFE8waUT5oo,
+._20QAC4WMXm8qFE8waUT5oo._3qwXPrhpZYqVbJxrZDrvjy {
+    /* margin: 0; */
+    /* padding: 0 6px 12px; */
+    padding: 8px;
+    border-radius: 16px;
+    background-color: unset;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 35px;
+}
+/* Search input */
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS {
+    border-radius: 16px;
+    background-color: rgb(var(--color-2));
+}
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
+    border: none;
+    box-shadow: none;
+}
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase:hover {
+    background-color: unset;
+}

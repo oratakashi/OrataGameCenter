@@ -5,7 +5,15 @@
    moveNavigationToSidebar
  } from './src/js/navigation.js'
 
+import {
+  createSearchContainer,
+  moveLibrarySearch
+} from './src/js/searchbar.js'
+
  (async () => {
     moveNavigationButton();
     moveNavigationToSidebar();
+
+    createSearchContainer();
+    moveLibrarySearch();
  })();

@@ -73,10 +73,15 @@
     background: unset;
 }
 
+._2L3s2nzh7yCnNESfI5_dN1 {
+    top: 60px;
+}
+
 ._3Y87YQY56ZCOqhgcZFaDc5 {
     padding: 12px;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    background-color: rgba(var(--color-1), .3);
+    /* background-color: rgb(var(--color-2)); */
 }
 
 /* Play/Install/... button */

@@ -5,7 +5,10 @@ import {
   moveNavigationToSidebar
 } from './src/js/navigation.js'
 
-import { observeLibraryDOMChanges } from './src/js/observer.js'
+import {
+  observeLibraryDOMChanges,
+  observeDetailGameDOMChanges
+} from './src/js/observer.js'
 
 import {
   createSearchContainer,
@@ -17,6 +20,7 @@ import {
   moveNavigationToSidebar();
 
   observeLibraryDOMChanges();
+  observeDetailGameDOMChanges();
 
   // createSearchContainer();
   // moveLibrarySearch();

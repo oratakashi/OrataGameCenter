@@ -1,0 +1,42 @@
+/* !Label on Detail Game like a Activity, Achievenents etc */
+._3i0kopAostOz2IDi9HqmeN {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: white;
+}
+
+._1Q2q_tQ9_Eq8YdEHNAHS3F._3jY6xWI4URhFyYsanh9VKL {
+    padding-left: unset;
+}
+
+/* !Root Content */
+._1_cYNJSvS6IXs9vLTEYjy5 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/* !Achievment on Header Game */
+.UAhWiMg9Q2VPsQQBj_ikT {
+    display: none;
+}
+
+/* Last Played, Playtime, Acchievement Section on Header*/
+._1YbtIWcfkQJOysLXQbwzRf {
+    flex: unset;
+    margin-right: 200px;
+}
+
+._9EHg918wH6CQCQlD5PWOO {
+    justify-content: center;
+}
+
+/* !Gradient Effect on Image Game */
+.image-gradient {
+    position: absolute;
+    bottom: 0; /* Tepat di bawah gambar */
+    left: 0;
+    width: 100%;
+    height: 30px; /* Tinggi gradasi */
+    background: linear-gradient(to top, rgb(var(--background)), transparent); /* Gradasi hitam ke transparan */
+    pointer-events: none; /* Supaya tidak mengganggu interaksi */
+}

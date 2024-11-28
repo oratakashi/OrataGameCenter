@@ -80,7 +80,7 @@
 ._3Y87YQY56ZCOqhgcZFaDc5 {
     padding: 12px;
     border-radius: 8px;
-    background-color: rgba(var(--color-1), .3);
+    /* background-color: rgba(var(--color-1), .3); */
     /* background-color: rgb(var(--color-2)); */
 }
 
@@ -331,10 +331,11 @@
 */
 .S2Fu9HxHCA5MaCLGrN2ib {
     margin-bottom: 12px;
-    padding: 12px;
+    padding: unset;
+    padding-top: 16px;
     border: none;
     border-radius: 8px;
-    background-color: rgb(var(--color-2));
+    /* background-color: rgb(var(--color-2)); */
 }
 
 .S2Fu9HxHCA5MaCLGrN2ib>div:not(._19LfMT7PFWg2xHOqNjR99q) {
@@ -355,7 +356,7 @@
     border: none;
     border-radius: 8px;
     background: none;
-    background-color: rgb(var(--color-1));
+    background-color: rgb(var(--color-2));
     transition: background-color 0.2s;
 }
 .UVeN0kaD3zv1feMj_mMw5 .UVeN0kaD3zv1feMj_mMw5:hover {
